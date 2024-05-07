@@ -1120,7 +1120,7 @@
             transform: translateX(0);
         }
 
-        .home__social{
+        .home__social-link{
             height: max-content;
             background-color: #63823c;
         }
