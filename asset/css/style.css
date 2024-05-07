@@ -1174,7 +1174,7 @@
         }
         .home__social{
             background-color: var(--first-color);
-            height: 18rem !important;
+            height: -8rem !important;
         }
     }
 
