@@ -1173,7 +1173,7 @@
             grid-template-columns: repeat(2, 350px);
         }
         .home__social{
-            margin-top: 1rem;
+            background-color: var(--first-color);
         }
     }
 
