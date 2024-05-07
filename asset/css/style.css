@@ -413,7 +413,6 @@
     .home__arrow,
     .home__line{
         position: absolute;
-        filter: invert(1);
         width: 50px;
         transition: filter .4s;
     }
@@ -424,8 +423,8 @@
     }
 
     .home__line{
-        right: -2rem;
-        bottom: -.5rem;
+        right: -3.5rem;
+        bottom: 7rem;
     }
     
     .home__profil .geometric-box{
@@ -964,8 +963,8 @@
     
 
     .contact__social-arrow{
-        width: 55px;
-        height: 60px;
+        width: 60px;
+        height: 50px;
         margin: 0 auto;
 
     }
@@ -1148,7 +1147,7 @@
         }
 
         .contact__social-arrow{
-            filter: invert(1);
+            filter: invert(0.2);
         }
 
         .contact__social-description-1{
