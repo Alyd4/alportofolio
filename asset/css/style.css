@@ -435,12 +435,10 @@
     }
 
     .home__social{
-        height: max-content;
         position: absolute;
-        left: -3rem;
-        top: 0;
-        bottom: 0;
-        margin: auto 0;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
         display: grid;
         row-gap: 1rem;
     }
@@ -1119,14 +1117,6 @@
         .contact__data .section__title-2{
             transform: translateX(0);
         }
-        .home__social{
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            display: grid;
-            row-gap: 1rem;
-        }
     }
 
     /* For medium devices */
@@ -1180,15 +1170,6 @@
         .projects__container{
             grid-template-columns: repeat(2, 350px);
         }
-        .home__social{
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            display: grid;
-            row-gap: 1rem;
-        }
-        
     }
     
 
