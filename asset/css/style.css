@@ -1172,8 +1172,8 @@
         .projects__container{
             grid-template-columns: repeat(2, 350px);
         }
+        
         .home__social{
-            background-color: var(--first-color);
             height: -8rem !important;
         }
     }
