@@ -1119,6 +1119,11 @@
         .contact__data .section__title-2{
             transform: translateX(0);
         }
+
+        .home__social {
+            display: flex;
+            gap: 1rem; /* Spasi antara ikon sosial */
+        }
     }
 
     /* For medium devices */
