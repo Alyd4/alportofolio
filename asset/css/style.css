@@ -1119,11 +1119,6 @@
         .contact__data .section__title-2{
             transform: translateX(0);
         }
-
-        .home__social {
-            display: flex;
-            gap: 1rem; /* Spasi antara ikon sosial */
-        }
     }
 
     /* For medium devices */
@@ -1176,6 +1171,16 @@
 
         .projects__container{
             grid-template-columns: repeat(2, 350px);
+        }
+        .home__social{
+        height: max-content;
+        position: absolute;
+        left: -3rem;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        display: grid;
+        row-gap: 1rem;
         }
     }
 
