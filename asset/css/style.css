@@ -1119,6 +1119,14 @@
         .contact__data .section__title-2{
             transform: translateX(0);
         }
+        .home__social{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: grid;
+            row-gap: 1rem;
+        }
     }
 
     /* For medium devices */
@@ -1172,11 +1180,17 @@
         .projects__container{
             grid-template-columns: repeat(2, 350px);
         }
-        
         .home__social{
-            height: 5.5rem !important;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: grid;
+            row-gap: 1rem;
         }
+        
     }
+    
 
     /* For large devices */
     @media screen and (min-width: 1150px){
