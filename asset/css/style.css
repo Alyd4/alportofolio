@@ -1119,11 +1119,6 @@
         .contact__data .section__title-2{
             transform: translateX(0);
         }
-
-        .home__social-link{
-            height: max-content;
-            background-color: #63823c;
-        }
     }
 
     /* For medium devices */
@@ -1134,6 +1129,10 @@
         .projects__container{
             grid-template-columns: 350px;
             justify-content: center;
+        }
+        .home__social-link{
+            height: max-content;
+            background-color: #63823c;
         }
 
         .contact__data{
